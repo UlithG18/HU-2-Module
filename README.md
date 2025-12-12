@@ -1,1 +1,1 @@
-# HU--2-Module
+# HU-2-Module
