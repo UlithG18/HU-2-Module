@@ -1,0 +1,17 @@
+/* html {
+    width: 100%;
+} */
+
+.navlink {
+    color: black;
+    text-decoration: none;
+}
+
+.petslink {
+    color: black;
+    text-decoration: none;
+}
+
+body {
+    background-color: aquamarine;
+}

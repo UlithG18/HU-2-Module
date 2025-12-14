@@ -13,10 +13,10 @@
     <header>
         <h1>Ulith Giraldo Echavarría</h1>
         <nav>
-            <a href="#about"></a>
-            <a href="#proyects"></a>
-            <a href="#contact"></a>
-            <a href="pets.html"></a>
+            <a class="navlink" href="#about">About</a>
+            <a class="navlink" href="#proyects">Proyects</a>
+            <a class="navlink" href="#contact">Contact</a>
+            <a class="navlink" href="pets.html">Pets Gallery</a>
         </nav>
     </header>
 
@@ -31,7 +31,7 @@
 
     <section id="proyects">
         <h2>Proyects</h2>
-        <ul>
+        <ul class="proyectslist">
             <li>Eco-Bikes</li>
             <li>WorldHubs</li>
             <li>Mini-OS</li>
@@ -39,10 +39,15 @@
     </section>
 
     <section id="contact">
-        <h2>Conact me</h2>
-
+        <h2>Conact me</h2><br>
+        <form>
+            <label for="name"><strong>Name</strong></label><br><br>
+            <input type="text" id="name" placeholder="What's yout name?..." required><br><br><br>
+            <label for="email"><strong>Enter your Email</strong></label><br><br>
+            <input type="email" id="email" placeholder="pepe@gmail.com" required><br>
+            <label for="textarea"></label><br>
+            <textarea rows="5" cols="30" name="textarea" id="textarea"
+                placeholder="Type your question, suggestion or whatever..." required></textarea><br>
+            <input type="submit">
+        </form>
     </section>
-
-</body>
-
-</html>
