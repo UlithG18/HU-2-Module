@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="">
     <title>Portfolio</title>
 </head>
@@ -15,7 +15,7 @@
         <h1>Ulith Giraldo Echavarría</h1>
         <nav class="portfolionav">
             <a class="navlink" href="#about">About</a>
-            <a class="navlink" href="#proyects">Proyects</a>
+            <a class="navlink" href="#projects">Proyects</a>
             <a class="navlink" href="#contact">Contact</a>
             <a class="navlink" href="/portfolio/pets.html">Pets Gallery</a>
         </nav>
@@ -23,16 +23,17 @@
 
     <section id="about">
         <h2>About me</h2>
-        <p class="about">
+        <p id="about-text">
             Hi, my name is Ulith and I'm a Riwi coder, I start
-            coding since Riwi, in this moment I kwon about Python
+            coding since Riwi, in this moment I know about Python
             basic and I'm learning HTML and CSS
         </p>
+        <button id="text-btn" type="button">Text Change</button>
     </section>
 
-    <section id="proyects">
+    <section id="proyjects">
         <h2>Proyects</h2>
-        <ul class="proyectslist">
+        <ul class="projectslist">
             <li>Eco-Bikes</li>
             <li>Galactic</li>
             <li>WorldHubs</li>
@@ -41,10 +42,10 @@
     </section>
 
     <section id="contact">
-        <h2>Conact me</h2><br>
+        <h2>Contact me</h2><br>
         <form>
             <label for="name"><strong>Name</strong></label><br><br>
-            <input type="text" id="name" placeholder="What's yout name?..." required><br><br><br>
+            <input type="text" id="name" placeholder="What's your name?..." required><br><br><br>
             <label for="email"><strong>Enter your Email</strong></label><br><br>
             <input type="email" id="email" placeholder="pepe@gmail.com" required><br>
             <label for="textarea"></label><br>
@@ -53,3 +54,6 @@
             <input type="submit">
         </form>
     </section>
+
+    <script src="script.js"></script>
+</body>
