@@ -141,27 +141,27 @@ img {
 }
 
 #img1 {
-    background-image: url(/portfolio/pets/yellowback.png);
+    background-image: url(pets/yellowback.png);
 }
 
 #img2 {
-    background-image: url(/portfolio/pets/blueback.png);
+    background-image: url(pets/blueback.png);
 }
 
 #img3 {
-    background-image: url(/portfolio/pets/dragonback.png);
+    background-image: url(pets/dragonback.png);
 }
 
 #img4 {
-    background-image: url(/portfolio/pets/brownback.png);
+    background-image: url(pets/brownback.png);
 }
 
 #img5 {
-    background-image: url(/portfolio/pets/redback.png);
+    background-image: url(pets/redback.png);
 }
 
 #img6 {
-    background-image: url(/portfolio/pets/greenback.png);
+    background-image: url(pets/greenback.png);
 }
 
 .img-container:hover {
